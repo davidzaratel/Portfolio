@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import {LeftContainer, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Navbar.style'
+import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Navbar.style'
+import "./Navbar.css"
 
 function Navbar() {
   const [extendedNavbar, setExtendedNavbar] = useState(false);
@@ -24,15 +25,19 @@ function Navbar() {
                 </NavbarLinkContainer>
             </LeftContainer>
             <RightContainer>
-                <NavBarLink to="/">David Zarate Lopez</NavBarLink>
+                <NavBarHomeLink to="/">David Zarate Lopez</NavBarHomeLink>
             </RightContainer>
         </NavbarInnerContainer>
        { extendedNavbar &&
        
        <NavbarExtendedContainer>
+            <div className="navbar-line"/>
             <NavBarLinkExtended to="/">Home</NavBarLinkExtended>
+            <div className="line-1"/>
             <NavBarLinkExtended to="/about">About</NavBarLinkExtended>
+            <div className="line-1"/>
             <NavBarLinkExtended to="/projects">Projects</NavBarLinkExtended>
+            <div className="line-1"/>
             <NavBarLinkExtended to="/experience">Experience</NavBarLinkExtended>
         </NavbarExtendedContainer>}
     </NavbarContainer>

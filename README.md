@@ -17,6 +17,7 @@ In this project I was able to work with technologies and topics such as:
       <li>Styled Components</li>
       <li>useState Hook</li>
     </ul>
+  <li>HTML</li>
   <li>CSS</li>
   <li>Javascript</li>
 </ul>

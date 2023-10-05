@@ -1,0 +1,51 @@
+.imageContainer {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hoverOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000075;
+}
+
+.imageContainer:hover .hoverOverlay {
+    opacity: 1;
+}
+
+.hoverImageText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: leading;
+}
+
+.titleHoverImage {
+    font-size: 3.5vw;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.descriptionHoverImage {
+    font-size: 1.5vw;
+}

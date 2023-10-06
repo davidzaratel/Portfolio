@@ -8,10 +8,11 @@ export const TitleContainer = styled.div `
     text-align: center;
 `;
 
-export const PrimaryTitle = styled.h1`
+export const PrimaryTitle = styled.h1 `
     font-size: 5vw;
     margin: auto;
     white-space: nowrap;
+    color: ${(props) => props.color};
 `
 
 export const PrimarySubtitle = styled.h2 `
@@ -19,6 +20,19 @@ export const PrimarySubtitle = styled.h2 `
     margin: auto;
     white-space: nowrap;
 `
+
+export const SecondarySubtitle = styled.h3 `
+    color: ${(props) => props.color};
+    font-size: 1.5vw;
+    white-space: nowrap;
+    @media(min-width: 750px) {
+        padding-top: 20px;
+    }
+    @media(max-width: 750px) {
+        padding-top: 10px;
+    }
+`
+
 export const ParagraphContainer = styled.div `
     margin: auto;
     font-size: 2vw; 

@@ -1,14 +1,14 @@
 import React from "react"
 import aboutPhoto from "../../Resources/David_Horizontal.png"
 import '../../App.css'
-import {ParagraphContainer, PrimarySubtitle, PrimaryTitle, TitleContainer } from "../../Styles/Reusable.style"
+import {ParagraphContainer, PrimarySubtitle, PrimaryTitle, TitleContainer } from "../../Styles/Styled Components/Reusable.style"
 import '../../Styles/css/About.css'
 
 export const About = () => {
     return(
         <div>
             <TitleContainer>
-                <PrimaryTitle>Hello There!</PrimaryTitle>
+                <PrimaryTitle color={"black"}>Hello There!</PrimaryTitle>
             </TitleContainer>
             <div className="imageContainer">
                 <img src={aboutPhoto} alt="Avatar" className="image"></img>

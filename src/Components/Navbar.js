@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Navbar.style'
-import "./Navbar.css"
+import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Styled Components/Navbar.style'
+import "../Styles/css/Navbar.css"
 
 function Navbar() {
   const [extendedNavbar, setExtendedNavbar] = useState(false);

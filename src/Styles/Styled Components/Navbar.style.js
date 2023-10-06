@@ -86,17 +86,22 @@ export const OpenLinkButton = styled.button`
 
 export const NavBarHomeLink= styled(Link) `
     color: #0D1B2A;
-    font-size: 2.5vw;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: auto;
     white-space: nowrap;
+    margin-right: 15%;
+
+    @media(max-width: 900px) {
+        font-size: large;
+    }
     @media (max-width: 700px) {
-        font-size: 3vw;
+        font-size: large;
         margin-right: 5%;
     }
     @media (max-width: 450px) {
-        font-size: large;
+        font-size: medium;
         margin-right: 5%;
     }
 `;

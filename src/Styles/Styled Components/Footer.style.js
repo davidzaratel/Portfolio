@@ -5,6 +5,7 @@ export const FooterContainer = styled.div `
     text-align: center;
     background-color: black;
     width: 100%;
+    margin-top: 50px;
     @media(min-width: 750px) {
         padding: 30px;
     }

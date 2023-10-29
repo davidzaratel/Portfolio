@@ -11,7 +11,7 @@ function Navbar() {
         <NavbarInnerContainer>
             <LeftContainer>
                 <NavbarLinkContainer>
-                    <NavBarLink to="/">Home</NavBarLink>
+                    <NavBarLink to="/">Education</NavBarLink>
                     <NavBarLink to="/about">About</NavBarLink>
                     <NavBarLink to="/projects">Projects</NavBarLink>
                     <NavBarLink to="/experience">Experience</NavBarLink>
@@ -32,7 +32,7 @@ function Navbar() {
        
        <NavbarExtendedContainer>
             <div className="navbar-line"/>
-            <NavBarLinkExtended to="/">Home</NavBarLinkExtended>
+            <NavBarLinkExtended to="/education">Education</NavBarLinkExtended>
             <div className="line-1"/>
             <NavBarLinkExtended to="/about">About</NavBarLinkExtended>
             <div className="line-1"/>

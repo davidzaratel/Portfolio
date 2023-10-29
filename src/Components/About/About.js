@@ -1,12 +1,12 @@
 import React from "react"
 import aboutPhoto from "../../Resources/David_Horizontal.png"
 import '../../App.css'
-import {ParagraphContainer, PrimarySubtitle, PrimaryTitle, TitleContainer } from "../../Styles/Styled Components/Reusable.style"
+import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer } from "../../Styles/Styled Components/Reusable.style"
 import '../../Styles/css/About.css'
 
 export const About = () => {
     return(
-        <div>
+        <PageContainer>
             <TitleContainer>
                 <PrimaryTitle color={"black"}>Hello There!</PrimaryTitle>
             </TitleContainer>
@@ -26,7 +26,7 @@ export const About = () => {
             <TitleContainer>
                 <PrimarySubtitle>Summary</PrimarySubtitle>
             </TitleContainer>
-            <ParagraphContainer>
+            <TextContainer>
                 <p>Currently I'm a Computer Science Student in ITESM Puebla with expected graduation in
                     June of 2024. Over the past years I've been able to learn about different Software Engineering
                     areas such as: iOS and Web Development (Front-end & Back-end), Data Structures and Algorithms as well as Game Development.
@@ -36,18 +36,18 @@ export const About = () => {
                     or even to the most complicated ones we can imagine. I believe that with programming you're able to create whatever you can imagine,
                     you just need an idea and start working on it.
                 </p>
-            </ParagraphContainer>
+            </TextContainer>
 
             <TitleContainer>
                 <PrimarySubtitle>Areas of interest</PrimarySubtitle>
             </TitleContainer>
             
-            <ParagraphContainer>
+            <TextContainer>
                 <p>The areas that I want to persue are iOS and Web Development since it gives me the freedom to deliver an inmense range
                     of solutions to users, with the only limitation being my imagination. Furthermore, I've been able to be inmersed in the Mobile Development
                     field with two previous internships I had in which I learned how to collaborate efficiently inside of a team and implement technical solutions. 
                 </p>
-            </ParagraphContainer> 
-        </div>
+            </TextContainer> 
+        </PageContainer>
     )
 }

@@ -13,10 +13,10 @@ function Footer() {
           <SecondarySubtitle color={"#6c757d"}>Contact me</SecondarySubtitle>
           <TitleFooter color={"white"}>Let's get in touch!</TitleFooter>
           <MediaContainer>
-            <MediaLink href='https://www.instagram.com/davidzaratel/'><img src={instaLogo} alt='instagram logo' className='mediaImage'></img></MediaLink>
-            <MediaLink href='https://www.facebook.com/david.zaratelopez.1?locale=es_LA'><img src={fbLogo} alt='linkedin logo' className='mediaImage'></img></MediaLink>
-            <MediaLink href='https://www.linkedin.com/in/davidzaratel/'><img src={lkdinLogo} alt='media logo' className='mediaImage'></img></MediaLink>
-            <MediaLink href='mailto:davzaratelo@gmail.com'><img src={emailLogo} alt='media logo' className='mediaImage'></img></MediaLink>
+            <MediaLink href='https://www.instagram.com/davidzaratel/' target="_blank"><img src={instaLogo} alt='instagram logo' className='mediaImage'></img></MediaLink>
+            <MediaLink href='https://www.facebook.com/david.zaratelopez.1?locale=es_LA' target="_blank"><img src={fbLogo} alt='linkedin logo' className='mediaImage'></img></MediaLink>
+            <MediaLink href='https://www.linkedin.com/in/davidzaratel/' target="_blank"><img src={lkdinLogo} alt='media logo' className='mediaImage'></img></MediaLink>
+            <MediaLink href='mailto:davzaratelo@gmail.com' target="_blank"><img src={emailLogo} alt='media logo' className='mediaImage'></img></MediaLink>
           </MediaContainer>
       </FooterContainer>
     )

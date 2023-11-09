@@ -11,7 +11,7 @@ function Navbar() {
         <NavbarInnerContainer>
             <LeftContainer>
                 <NavbarLinkContainer>
-                    <NavBarLink to="/">Education</NavBarLink>
+                    <NavBarLink to="/education">Education</NavBarLink>
                     <NavBarLink to="/about">About</NavBarLink>
                     <NavBarLink to="/projects">Projects</NavBarLink>
                     <NavBarLink to="/experience">Experience</NavBarLink>

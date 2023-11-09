@@ -30,7 +30,7 @@ export const SectionDescriptionContainer = styled.div `
     width: 90%;
     text-align: center;
     margin-bottom: 70px;
-    @media(max-width: 1000px) {
+    @media(max-width: 1200px) {
         font-size: 20px;
     }
     @media(max-width: 750px) {
@@ -42,8 +42,17 @@ export const PrimaryTitle = styled.h1 `
     margin: auto;
     white-space: nowrap;
     color: ${(props) => props.color};
-    @media(min-width: 1000px) {
-        font-size: 70px;
+    @media(min-width: 1200px) {
+        font-size: 60px;
+    }
+    @media(max-width: 1200px) {
+        font-size: 50px;
+    }
+    @media(max-width: 750px) {
+        font-size: 40px;
+    }
+    @media(max-width: 750px) {
+        font-size: 30px;
     }
 `
 
@@ -57,13 +66,18 @@ export const PrimarySubtitle = styled.h2 `
 
 export const SecondarySubtitle = styled.h3 `
     color: ${(props) => props.color};
-    font-size: ${(props) => props.fontSize ? props.fontSize : '1.5vw'};
+    font-size: ${(props) => props.fontSize ? props.fontSize : '20px'};
     white-space: nowrap;
-    @media(min-width: 750px) {
-        padding-top: 20px;
+    padding-top: 20px;
+    @media(max-width: 1200px){
+        font-size: 18px;
     }
-    @media(max-width: 750px) {
+    @media(max-width: 750px){
+        font-size: 16px;
         padding-top: 10px;
+    }
+    @media(max-width: 450px) {
+        font-size: 14px;
     }
 `
 
@@ -84,10 +98,10 @@ export const TextContainer = styled.div `
 
 export const SectionSeparator = styled.div `
     height: 1px;
-    width: ${(props) => props.width ? props.width : 0};
+    width: ${(props) => props.width ? props.width : 1};
     margin: auto;
     margin-top: 10px;
-    background: ${(props) => props.color};
+    background: ${(props) => props.color ? props.color : 'black'};
     @media(max-width: 1500px) {
         margin-top: 5px;
     }

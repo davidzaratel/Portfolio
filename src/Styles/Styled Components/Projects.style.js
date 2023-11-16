@@ -128,25 +128,29 @@ export const SkillsContainer = styled.div `
 `
 
 export const SingleSkillContainer = styled.div `
-    margin: auto;
-    width: 30%;
-    border: solid white;
+    margin-left: 10px;
+    border: ${(props) => props.borderColor ? props.borderColor : 'solid white'};
     border-width: 1px;
     text-align: center;
     border-radius: 100px;
     @media(min-width: 1200px) {
         margin-top: 10px;
-        padding: 5px;
+        padding: 7px;
     }
     @media(max-width: 1200px) {
         margin-top: 7px;
-        padding: 3px;
+        padding: 6px;
     }
-    @media(max-width: 700px) {
+    @media(max-width: 750px) {
         margin-top: 5px;
-        padding: 2px;
+        padding: 5px;
+    }
+    &:hover {
+        color: ${(props) => props.hoverFontColor ? props.hoverFontColor : 'black'};
+        background-color: ${(props) => props.hoverColor ? props.hoverColor : 'white'};
     }
 `
+
 export const ProjectHoverDescription = styled.p` 
     margin-bottom: 10px;
 `

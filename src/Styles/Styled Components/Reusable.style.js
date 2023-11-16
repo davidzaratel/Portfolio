@@ -5,14 +5,11 @@ export const PageContainer = styled.div `
     @media(max-width: 1200px) {
         margin: 0px 70px 0px 70px;
     }
-    @media(max-width: 750px) {
-        margin: 0px 100px 0px 100px;
-    }
     @media(max-width: 550px) {
         margin: 0px 50px 0px 50px;
     }
     @media(max-width: 400px) {
-        margin: 0px 15px 0px 15px;
+        margin: 0px 30px 0px 30px;
     }
 `
 
@@ -40,7 +37,6 @@ export const SectionDescriptionContainer = styled.div `
 
 export const PrimaryTitle = styled.h1 `
     margin: auto;
-    white-space: nowrap;
     color: ${(props) => props.color};
     @media(min-width: 1200px) {
         font-size: 60px;
@@ -51,14 +47,16 @@ export const PrimaryTitle = styled.h1 `
     @media(max-width: 750px) {
         font-size: 40px;
     }
-    @media(max-width: 750px) {
+    @media(max-width: 450px) {
         font-size: 30px;
+    }
+    @media(max-width: 320px) {
+        font-size: 20px;
     }
 `
 
 export const PrimarySubtitle = styled.h2 `
     margin: auto;
-    white-space: nowrap;
     @media(min-width: 1000px) {
         font-size: 40px;
     }
@@ -104,5 +102,57 @@ export const SectionSeparator = styled.div `
     background: ${(props) => props.color ? props.color : 'black'};
     @media(max-width: 1500px) {
         margin-top: 5px;
+    }
+`
+
+export const OrganizationTitle = styled.h1 `
+    margin: 0px;
+    @media(min-width: 1200px){
+        font-size: 30px;
+    }
+    @media(max-width: 1200px){
+        font-size: 24px;
+    }
+    @media(max-width: 750px){
+        font-size: 20px;
+    }
+    @media(max-width: 450px) {
+        font-size: 18px;
+    }
+`
+
+export const OrganizationSubtitle1 = styled.h2 `
+    margin: 10px 0px 10px 0px;
+    font-weight: normal;
+    font-style: italic;
+    @media(min-width: 1200px){
+        font-size: 20px;
+    }
+    @media(max-width: 1200px){
+        font-size: 18px;
+    }
+    @media(max-width: 750px){
+        font-size: 16px;
+    }
+    @media(max-width: 450px) {
+        font-size: 14px;
+    }
+`
+
+export const OrganizationSubtitle2 = styled.h3 `
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+    text-align: ${(props) => props.align ? props.align : ''};
+    @media(min-width: 1200px){
+        font-size: 18px;
+    }
+    @media(max-width: 1200px){
+        font-size: 16px;
+    }
+    @media(max-width: 750px){
+        font-size: 12px;
+    }
+    @media(max-width: 450px) {
+        font-size: 8px;
     }
 `

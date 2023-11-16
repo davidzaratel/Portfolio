@@ -1,6 +1,6 @@
 import React from 'react'
-import { CourseTitle, CoursesContainer, EducationEnrollment, EducationLevel, EducationSection, OrganizationDetails, OrganizationLogo, OrganizationTitle } from './styled components/Education.style'
-import { SecondarySubtitle, SectionSeparator } from '../../Styles/Styled Components/Reusable.style'
+import { CourseTitle, CoursesContainer, EducationSection, OrganizationDetails, OrganizationLogo } from './styled components/Education.style'
+import { OrganizationSubtitle1, OrganizationSubtitle2, SecondarySubtitle, SectionSeparator, OrganizationTitle } from '../../Styles/Styled Components/Reusable.style'
 
 function EducationRow(props) {
   return (
@@ -8,8 +8,8 @@ function EducationRow(props) {
         <OrganizationLogo src={props.logo}/>
         <OrganizationDetails>
             <OrganizationTitle>{props.organizationName}</OrganizationTitle>
-            <EducationLevel>{props.educationLevel}</EducationLevel>
-            <EducationEnrollment>{props.educationEnrollment}</EducationEnrollment>
+            <OrganizationSubtitle1>{props.educationLevel}</OrganizationSubtitle1>
+            <OrganizationSubtitle2>{props.educationEnrollment}</OrganizationSubtitle2>
         </OrganizationDetails>
         <SectionSeparator width="50%" color='#ced4da'/>
         <SecondarySubtitle>Relevant courses</SecondarySubtitle>

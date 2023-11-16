@@ -3,7 +3,7 @@ import { SingleSkillContainer, SkillTitle } from '../../../Styles/Styled Compone
 
 export const Skill = (props) => {
   return (
-    <SingleSkillContainer>
+    <SingleSkillContainer borderColor={props.borderColor} hoverColor={props.hoverColor} hoverFontColor={props.hoverFontColor}>
          <SkillTitle>{props.title}</SkillTitle>
     </SingleSkillContainer>
   )

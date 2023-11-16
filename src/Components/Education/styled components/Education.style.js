@@ -10,56 +10,6 @@ export const EducationSection = styled.div `
     margin: 50px auto 50px auto;
 `
 
-export const OrganizationTitle = styled.h1 `
-    margin: 0px;
-    @media(min-width: 1200px){
-        font-size: 30px;
-    }
-    @media(max-width: 1200px){
-        font-size: 24px;
-    }
-    @media(max-width: 750px){
-        font-size: 16px;
-    }
-    @media(max-width: 450px) {
-        font-size: 12px;
-    }
-`
-export const EducationLevel = styled.h2 `
-    margin: 10px 0px 10px 0px;
-    font-weight: normal;
-    font-style: italic;
-    @media(min-width: 1200px){
-        font-size: 20px;
-    }
-    @media(max-width: 1200px){
-        font-size: 18px;
-    }
-    @media(max-width: 750px){
-        font-size: 16px;
-    }
-    @media(max-width: 450px) {
-        font-size: 14px;
-    }
-`
-
-export const EducationEnrollment = styled.h3 `
-    font-size: 18px;
-    margin: 10px 0px 10px 0px;
-    @media(min-width: 1200px){
-        font-size: 18px;
-    }
-    @media(max-width: 1200px){
-        font-size: 16px;
-    }
-    @media(max-width: 750px){
-        font-size: 12px;
-    }
-    @media(max-width: 450px) {
-        font-size: 8px;
-    }
-`
-
 export const OrganizationDetails = styled.div `
     margin: auto;
     margin-bottom: 25px;

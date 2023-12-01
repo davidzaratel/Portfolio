@@ -6,6 +6,7 @@ export const NavbarContainer = styled.nav `
     height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
     display: flex;
     flex-direction: column;
+    background-color: black;
     @media (min-width: 700px) {
         height: 80px;
     }
@@ -46,7 +47,7 @@ export const NavbarLinkContainer = styled.div `
 `;
 
 export const NavBarLink = styled(Link) `
-    color: #0D1B2A;
+    color: white;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -58,10 +59,13 @@ export const NavBarLink = styled(Link) `
     @media (max-width: 900px) {
         font-size: large;
     }
+    &:hover {
+        color: #014f86;
+    }
 `;
 
 export const NavBarLinkExtended = styled(Link) `
-    color: #0D1B2A;
+    color: white;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -69,13 +73,16 @@ export const NavBarLinkExtended = styled(Link) `
     @media (max-width: 450px) {
         font-size: large;
     }
+    &:hover {
+        color: #014f86;
+    }
 `;
 export const OpenLinkButton = styled.button`
     width: 70px;
     height: 50px;
     background: none;
     border: none;
-    color: #0D1B2A;
+    color: white;
     font-size: 45px;
     cursor: pointer;
 
@@ -85,7 +92,7 @@ export const OpenLinkButton = styled.button`
 `
 
 export const NavBarHomeLink= styled(Link) `
-    color: #0D1B2A;
+    color: white;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -103,6 +110,10 @@ export const NavBarHomeLink= styled(Link) `
     @media (max-width: 450px) {
         font-size: medium;
         margin-right: 5%;
+    }
+
+    &:hover {
+        color: #014f86;
     }
 `;
 

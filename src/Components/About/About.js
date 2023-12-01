@@ -1,7 +1,7 @@
 import React from "react"
 import aboutPhoto from "../../Resources/David_Horizontal.png"
 import '../../App.css'
-import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer } from "../../Styles/Styled Components/Reusable.style"
+import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer, SectionDescriptionContainer } from "../../Styles/Styled Components/Reusable.style"
 import '../../Styles/css/About.css'
 
 export const About = () => {
@@ -10,6 +10,10 @@ export const About = () => {
             <TitleContainer>
                 <PrimaryTitle color={"black"}>Hello There!</PrimaryTitle>
             </TitleContainer>
+            <SectionDescriptionContainer>
+                <p>Here's information about me, my trajectory and interests.
+                </p>
+            </SectionDescriptionContainer>
             <div className="imageContainer">
                 <img src={aboutPhoto} alt="Avatar" className="image"></img>
                 <div className="hoverOverlay">

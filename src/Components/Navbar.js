@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+
 import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Styled Components/Navbar.style'
 import "../Styles/css/Navbar.css"
 
@@ -32,13 +33,29 @@ function Navbar() {
        
        <NavbarExtendedContainer>
             <div className="navbar-line"/>
-            <NavBarLinkExtended to="/education">Education</NavBarLinkExtended>
+            <NavBarLinkExtended to="/education" 
+            onClick= {() => {
+                        setExtendedNavbar((curr) => !curr);
+            }}
+            >Education</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/about">About</NavBarLinkExtended>
+            <NavBarLinkExtended to="/about"
+            onClick= {() => {
+                setExtendedNavbar((curr) => !curr);
+            }}
+            >About</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/projects">Projects</NavBarLinkExtended>
+            <NavBarLinkExtended to="/projects"
+            onClick= {() => {
+                setExtendedNavbar((curr) => !curr);
+            }}
+            >Projects</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/experience">Experience</NavBarLinkExtended>
+            <NavBarLinkExtended to="/experience"
+            onClick= {() => {
+                setExtendedNavbar((curr) => !curr);
+            }}  
+            >Experience</NavBarLinkExtended>
         </NavbarExtendedContainer>}
     </NavbarContainer>
   )

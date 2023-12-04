@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
-
-import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, RightContainer} from '../Styles/Styled Components/Navbar.style'
+import {LeftContainer, NavBarHomeLink, NavBarLink, NavBarLinkExtended, NavbarContainer, NavbarExtendedContainer, NavbarInnerContainer, NavbarLinkContainer, OpenLinkButton, ResumeIcon, ResumeIconExtended, ResumeLink, ResumeLinkExtended, RightContainer} from '../Styles/Styled Components/Navbar.style'
 import "../Styles/css/Navbar.css"
+import resumeFile from '../Resources/files/DavidZARATELOPEZ_Resume.pdf'
+import resumeLogo from '../Resources/icons/resume.png'
 
 function Navbar() {
   const [extendedNavbar, setExtendedNavbar] = useState(false);
@@ -12,6 +13,9 @@ function Navbar() {
         <NavbarInnerContainer>
             <LeftContainer>
                 <NavbarLinkContainer>
+                    <ResumeLink href={resumeFile} download="DavidZARATELOPEZ_Resume.pdf">
+                        <ResumeIcon src={resumeLogo} alt='resume logo'></ResumeIcon>
+                    </ResumeLink>
                     <NavBarLink to="/education">Education</NavBarLink>
                     <NavBarLink to="/about">About</NavBarLink>
                     <NavBarLink to="/projects">Projects</NavBarLink>
@@ -26,12 +30,17 @@ function Navbar() {
                 </NavbarLinkContainer>
             </LeftContainer>
             <RightContainer>
-                <NavBarHomeLink to="/">David Zarate Lopez</NavBarHomeLink>
+                <NavBarHomeLink to="/">David Zárate López</NavBarHomeLink>
             </RightContainer>
         </NavbarInnerContainer>
        { extendedNavbar &&
        
        <NavbarExtendedContainer>
+            <div className="navbar-line"/>
+            <ResumeLinkExtended href={resumeFile} download="DavidZARATELOPEZ_Resume.pdf">
+                <ResumeIconExtended src={resumeLogo} alt='resume logo'></ResumeIconExtended>
+            </ResumeLinkExtended>
+            <div className="line-1"/>
             <div className="navbar-line"/>
             <NavBarLinkExtended to="/education" 
             onClick= {() => {

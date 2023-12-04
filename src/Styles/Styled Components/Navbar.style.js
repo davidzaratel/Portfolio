@@ -52,7 +52,9 @@ export const NavBarLink = styled(Link) `
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 7%;
-
+    @media (max-width: 1200px) {
+        margin: 7% 5% 7% 5%;
+    }
     @media (max-width: 700px) {
         display: none;
     }
@@ -77,6 +79,7 @@ export const NavBarLinkExtended = styled(Link) `
         color: #014f86;
     }
 `;
+
 export const OpenLinkButton = styled.button`
     width: 70px;
     height: 50px;
@@ -125,4 +128,36 @@ export const NavbarExtendedContainer = styled.div `
     @media (min-width: 700px) {
         display: none
     }
+`;
+
+export const ResumeLink = styled.a `
+    color: white;
+    margin: 7%;
+`
+
+export const ResumeIcon = styled.img `
+    padding-top: 10%;
+    width: 30px;
+    @media(max-width: 900px) {
+        width: 25px;
+    }
+    @media (max-width: 700px) {
+        display: none;
+    }
+    &:hover {
+        filter: brightness(50%);
+    }
+`
+
+export const ResumeIconExtended = styled.img `
+    width: 30px;
+    margin: 10px;
+    &:hover {
+        filter: brightness(50%);
+    }
+`
+
+export const ResumeLinkExtended = styled.a `
+    color: white;
+    margin: 10px;
 `;

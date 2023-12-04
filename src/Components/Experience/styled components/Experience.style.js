@@ -37,7 +37,7 @@ export const ExperienceInfoContainer = styled.div `
 export const ExperienceRowContainer = styled.div `
     display: flex;
     width: 100%;
-    margin: 40px 0px 40px 0px;
+    margin: 100px 0px 40px 0px;
     @media(max-width: 750px) {
         display: block;
         width: 100%;

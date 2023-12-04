@@ -1,7 +1,7 @@
 import React from "react"
 import aboutPhoto from "../../Resources/David_Horizontal.png"
 import '../../App.css'
-import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer, SectionDescriptionContainer } from "../../Styles/Styled Components/Reusable.style"
+import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer, SectionDescriptionContainer, SectionSeparator } from "../../Styles/Styled Components/Reusable.style"
 import '../../Styles/css/About.css'
 
 export const About = () => {
@@ -9,6 +9,7 @@ export const About = () => {
         <PageContainer>
             <TitleContainer>
                 <PrimaryTitle color={"black"}>Hello There!</PrimaryTitle>
+                <SectionSeparator width="30%" color="black"/>
             </TitleContainer>
             <SectionDescriptionContainer>
                 <p>Here's information about me, my trajectory and interests.
@@ -52,6 +53,16 @@ export const About = () => {
                     field with two previous internships I had in which I learned how to collaborate efficiently inside of a team and implement technical solutions. 
                 </p>
             </TextContainer> 
+
+            <TitleContainer>
+                <PrimarySubtitle>About this Portfolio</PrimarySubtitle>
+            </TitleContainer>
+            
+            <TextContainer>
+                <p>Through this portfolio I wanted to give a better perspective of who am I, what I'm passionate about and the different experiences I've been lucky to have.
+                    Also, it was developed using ReactJS and styled-components in order to have a clean but personalized website.
+                </p>
+            </TextContainer>
         </PageContainer>
     )
 }

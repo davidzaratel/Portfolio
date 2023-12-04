@@ -8,8 +8,9 @@ export const experienceData = [
         location: "Berlin, Germany",
         projectName: "iOS Application ",
         image: tSystems,
-        bulletPoints: ["Developed T-Systems's Data Intelligence Hub (DIH) first iOS mobile app from scratch using Swift and SwiftUI",
-            "Managed and developed all stages of the product: from gathering software requirements, implementation, releasing through TestFlight , testing the app inside the DIH department, documentation and finally fixing errors and debugging the app."
+        bulletPoints: ["Developed T-Systems's Data Intelligence Hub (DIH) first iOS mobile app from scratch using Swift and SwiftUI.",
+            "Managed and developed all stages of the product: from gathering software requirements, implementation, releasing through TestFlight , testing the app inside the DIH department, documentation and finally fixing errors and debugging the app.",
+            "Implemented unit tests and state driven development in different components of the app."
         ],
         skills: ["Swift", "SwiftUI", "Alamofire", "OAuth", "URLSession", "MVVM", "Unit Testing", "Testflight"]
     },

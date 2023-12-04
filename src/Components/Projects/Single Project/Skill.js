@@ -1,5 +1,5 @@
 import React from 'react'
-import { SingleSkillContainer, SkillTitle } from '../../../Styles/Styled Components/Projects.style'
+import { SingleSkillContainer, SkillTitle } from '../styled/Projects.style'
 
 export const Skill = (props) => {
   return (

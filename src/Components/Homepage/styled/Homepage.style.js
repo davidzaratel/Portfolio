@@ -10,6 +10,7 @@ export const HomepageTextContainer = styled.div `
     color: white;
     width: 100%;
     margin-bottom: 5%;
+    margin-top: 3%;
     @media(min-width: 1200px) {
         display: flex;
     }
@@ -36,7 +37,7 @@ export const RightContainerHomepage = styled.div `
     }
 `
 export const HomePageTitle = styled.h1 `
-    font-size: 190px;
+    font-size: 210px;
     text-align: left;
     @media(min-width: 1200px) {
         margin-left: 9%;

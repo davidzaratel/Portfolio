@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProjectTile } from './Single Project/ProjectTile'
-import { ProjectsRow } from '../../Styles/Styled Components/Projects.style'
+import { ProjectsRow } from './styled/Projects.style'
 import { projectsData } from './Model/ProjectsData'
 
 export const ProjectsContainer = () => {

@@ -30,7 +30,7 @@ function Navbar() {
                 </NavbarLinkContainer>
             </LeftContainer>
             <RightContainer>
-                <NavBarHomeLink to="/">David Zárate López</NavBarHomeLink>
+                <NavBarHomeLink to="/Portfolio">David Zárate López</NavBarHomeLink>
             </RightContainer>
         </NavbarInnerContainer>
        { extendedNavbar &&

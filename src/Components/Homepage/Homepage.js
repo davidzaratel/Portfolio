@@ -17,7 +17,7 @@ export const HomePage = () => {
                         I'm dedicated, outgoing perseverant and looking for opportunities to develop new 
                         abilities and knowledge in Software Engineering order to create products and services 
                         with meaningful impact in our society.
-                        My expertise lies on iOS and Web Development.
+                        My expertise lies mainly on iOS and Web Development.
                     </HomePageDescription>
                 </RightContainerHomepage>   
             </HomepageTextContainer>

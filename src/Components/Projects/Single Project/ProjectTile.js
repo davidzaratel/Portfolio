@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectContainer, ProjectHoverDescription, ProjectHoverOverlay, ProjectHoverText, ProjectImageContainer, ProjectPicture, ProjectTitle, ProjectType, SkillsContainer, TileTitle } from '../../../Styles/Styled Components/Projects.style'
+import { ProjectContainer, ProjectHoverDescription, ProjectHoverOverlay, ProjectHoverText, ProjectImageContainer, ProjectPicture, ProjectTitle, ProjectType, SkillsContainer, TileTitle } from '../styled/Projects.style'
 import { SectionSeparator } from '../../../Styles/Styled Components/Reusable.style'
 import { Skill } from './Skill'
 

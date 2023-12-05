@@ -14,11 +14,22 @@ export const FooterContainer = styled.div `
     }
 `
 export const TitleFooter = styled.footer `
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: white;
-    font-size: 3vw;
     white-space: nowrap;
     color: ${(props) => props.color};
+    font-size: 38px;
+    @media(max-width: 1200px){
+        font-size: 30px;
+    }
+    @media(max-width: 750px){
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    @media(max-width: 450px) {
+        font-size: 22px;
+    }
 `
 
 export const MediaContainer = styled.div `
@@ -40,6 +51,21 @@ export const MediaLink = styled.a `
         margin: 20px;
     }
     @media(max-width: 470px) {
-        margin: 5px;
+        margin: 10px;
+    }
+`
+
+export const MediaImage = styled.img `
+    width: 35px;
+    color: white;
+    @media(max-width: 1200px){
+        width: 30px;
+    }
+    @media(max-width: 750px){
+        width: 26px;
+        margin-bottom: 20px;
+    }
+    @media(max-width: 450px) {
+        width: 20px;
     }
 `

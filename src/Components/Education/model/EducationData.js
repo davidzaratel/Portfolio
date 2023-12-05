@@ -4,7 +4,7 @@ import htwLogo from '../images/htwLogo.png'
 export const educationData = [
     {
         organizationName: "Tecnológico de Monterrey (ITESM)",
-        educationLevel: "Bachelor or Engineering in Computer Science",
+        educationLevel: "Bachelor of Engineering in Computer Science",
         educationEnrollment: "Expected Graduation: June 2024",
         courses: ["Object Oriented Programming", "Mathematical Modeling", "Internet of Things", 
                  "Software Requirements", "Differential Equations", "Data Structures and Algorithms",

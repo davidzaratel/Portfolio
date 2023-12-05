@@ -19,11 +19,10 @@ export const HomePage = () => {
                     <RightContainerHomepage>
                         <HomepageImage src={profile}/>
                         <HomePageSubtitle>Welcome to my Portfolio!</HomePageSubtitle>
-                        <HomePageDescription>I'm a Computer Science Student at ITESM Puebla perusing graduation on June 2024. 
-                            I'm dedicated, outgoing perseverant and looking for opportunities to develop new 
-                            abilities and knowledge in Software Engineering order to create products and services 
-                            with meaningful impact in our society.
-                            My expertise lies mainly on iOS and Web Development.
+                        <HomePageDescription>I'm a Computer Science Student at ITESM Puebla pursuing graduation in June 2024.
+                            I'm dedicated, outgoing perseverant, and looking for opportunities to develop new abilities and 
+                            knowledge in Software Engineering in order to create products and services with meaningful impact 
+                            on our society. My expertise lies mainly in iOS and Web Development.
                         </HomePageDescription>
                     </RightContainerHomepage>   
                 </HomepageTextContainer>

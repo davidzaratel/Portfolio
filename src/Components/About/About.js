@@ -27,9 +27,9 @@ export const About = () => {
                         <div className="hoverImageText">
                             <h1 className="titleHoverImage">I'm David</h1>
                             <h4 className="descriptionHoverImage">
-                                I was born in Arizona but I lived in Mexico my whole life. I'm an outgoing, perseverant and resilient person who's 
-                                driven by solving real life problems to help others through technology. I'm constantly working on improving my Software Engineering abilities 
-                                and looking for opportunities to grow as an Engineer. 
+                            I was born in Arizona but I lived in Mexico my whole life.
+                            I'm an outgoing, perseverant, and resilient person who's driven by solving real-life problems to help others through technology. 
+                            I'm constantly working on improving my Software Engineering abilities and looking for opportunities to grow as an Engineer.
                             </h4>
                         </div>
                     </div>
@@ -65,8 +65,8 @@ export const About = () => {
                 </TitleContainer>
                 
                 <TextContainer>
-                    <p>Through this portfolio I wanted to give a better perspective of who am I, what I'm passionate about and the different experiences I've been lucky to have.
-                        Also, it was developed using ReactJS and styled-components in order to have a clean but personalized website.
+                    <p>Through this portfolio, I wanted to give a better perspective of who am I, what I'm passionate about, and the different experiences I've been lucky to have. 
+                        Also, it was developed using ReactJS and styled-components to have a clean but personalized website.
                     </p>
                 </TextContainer>
             </PageContainer>

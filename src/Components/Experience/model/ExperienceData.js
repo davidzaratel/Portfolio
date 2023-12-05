@@ -22,7 +22,7 @@ export const experienceData = [
         image: nextdoor,
         bulletPoints: ["Developed Nextdoor's Video Feed in iOS, allowing to interact and scroll down through different videos when posts with a video get clicked.",
             "Implemented pagination for this feed, changing the authors information, reactions and comments when the user scrolls through the videos.",
-            "Part of the Feed UX team, collaborating with 10 fellow developers."
+            "Part of the Feed UX team, collaborating with ten fellow developers."
         ],
         skills: ["Swift", "UIKit", "GraphQL", "Pagination", "Async", "MVVM"]
     },

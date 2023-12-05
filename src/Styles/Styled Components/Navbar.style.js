@@ -16,7 +16,6 @@ export const LeftContainer = styled.div `
     flex: 70%;
     display: flex;
     align-items: center;
-    padding-left: 3%;
     @media (max-width: 700px) {
         flex: 10%;
         height: 80px;
@@ -30,7 +29,7 @@ export const RightContainer = styled.div `
     text-align: right;
     padding-left: 20px;
     @media (max-width: 700px) {
-        padding-top: 20px;
+        padding-top: 10px;
         padding-left: 0px;
         flex: 90%;
     }
@@ -87,6 +86,7 @@ export const OpenLinkButton = styled.button`
     border: none;
     color: white;
     font-size: 45px;
+    margin-bottom: 17px;
     cursor: pointer;
 
     @media (min-width: 701px) {
@@ -101,7 +101,7 @@ export const NavBarHomeLink= styled(Link) `
     text-decoration: none;
     margin: auto;
     white-space: nowrap;
-    margin-right: 15%;
+    margin-right: 10%;
 
     @media(max-width: 900px) {
         font-size: large;
@@ -133,6 +133,9 @@ export const NavbarExtendedContainer = styled.div `
 export const ResumeLink = styled.a `
     color: white;
     margin: 7%;
+    @media (max-width: 700px) {
+        display: none;
+    }
 `
 
 export const ResumeIcon = styled.img `

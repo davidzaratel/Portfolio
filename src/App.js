@@ -1,24 +1,14 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
-import { HomePage } from './Components/Homepage/Homepage';
-import { About } from './Components/About/About';
-import { Experience } from './Components/Experience/Experience';
-import { Projects } from './Components/Projects/Projects';
+import {BrowserRouter as Router} from "react-router-dom"
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Education from './Components/Education/Education';
+import AnimatedRoutes from './Components/AnimatedRoutes';
 
 function App() {
   return (
     <Router>
       <Navbar/>
-        <Routes>
-        <Route path="/Portfolio" element={<HomePage/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/experience" element={<Experience/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/education" element={<Education/>}/>
-        </Routes>
+        <AnimatedRoutes/>
       <Footer/>
     </Router>
   );

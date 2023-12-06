@@ -23,12 +23,12 @@ export const TitleContainer = styled.div `
 
 export const SectionDescriptionContainer = styled.div `
     margin: auto;
-    font-size: 25px;
+    font-size: 24px;
     width: 90%;
     text-align: center;
     margin-bottom: 70px;
-    @media(max-width: 1200px) {
-        font-size: 20px;
+    @media(max-width: 1000px) {
+        font-size: 18px;
     }
     @media(max-width: 750px) {
         font-size: 12px;
@@ -57,8 +57,20 @@ export const PrimaryTitle = styled.h1 `
 
 export const PrimarySubtitle = styled.h2 `
     margin: auto;
-    @media(min-width: 1000px) {
+    @media(min-width: 1200px) {
         font-size: 40px;
+    }
+    @media(max-width: 1200px) {
+        font-size: 30px;
+    }
+    @media(max-width: 750px) {
+        font-size: 20px;
+    }
+    @media(max-width: 450px) {
+        font-size: 20px;
+    }
+    @media(max-width: 320px) {
+        font-size: 15px;
     }
 `
 

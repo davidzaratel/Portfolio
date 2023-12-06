@@ -44,16 +44,17 @@ export const CourseTitle = styled.h3 `
     width: 50%;
     font-size: 16px;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     @media(max-width: 1200px){
-        font-size: 14px;
-        margin-bottom: 15px;
+        font-size: 18px;
+        margin-bottom: 20px;
     }
     @media(max-width: 750px){
         font-size: 12px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     @media(max-width: 450px) {
-        font-size: 8px;
+        width: 100%;
+        font-size: 10px;
     }
 `

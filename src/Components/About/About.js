@@ -4,6 +4,9 @@ import '../../App.css'
 import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer, SectionDescriptionContainer, SectionSeparator } from "../../Styles/Styled Components/Reusable.style"
 import '../../Styles/css/About.css'
 import { motion } from 'framer-motion'
+import Summary from "./Summary"
+import Interests from "./Interests"
+import AllSkills from "./AllSkills"
 
 export const About = () => {
     return(
@@ -34,41 +37,21 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
-                <TitleContainer>
-                    <PrimarySubtitle>Summary</PrimarySubtitle>
-                </TitleContainer>
-                <TextContainer>
-                    <p>Currently I'm a Computer Science Student in ITESM Puebla with expected graduation in
-                        June of 2024. Over the past years I've been able to learn about different Software Engineering
-                        areas such as: iOS and Web Development (Front-end & Back-end), Data Structures and Algorithms as well as Game Development.
-                    </p>
-                    <p>
-                        I'm passionate about Software Engineering because it allows people to come up with amazing solutions to our day to day problems
-                        or even to the most complicated ones we can imagine. I believe that with programming you're able to create whatever you can imagine,
-                        you just need an idea and start working on it.
-                    </p>
-                </TextContainer>
+                <Summary/>
 
-                <TitleContainer>
-                    <PrimarySubtitle>Areas of interest</PrimarySubtitle>
-                </TitleContainer>
-                
-                <TextContainer>
-                    <p>The areas that I want to persue are iOS and Web Development since it gives me the freedom to deliver an inmense range
-                        of solutions to users, with the only limitation being my imagination. Furthermore, I've been able to be inmersed in the Mobile Development
-                        field with two previous internships I had in which I learned how to collaborate efficiently inside of a team and implement technical solutions. 
-                    </p>
-                </TextContainer> 
+                <Interests/>
 
                 <TitleContainer>
                     <PrimarySubtitle>About this Portfolio</PrimarySubtitle>
                 </TitleContainer>
                 
                 <TextContainer>
-                    <p>Through this portfolio, I wanted to give a better perspective of who am I, what I'm passionate about, and the different experiences I've been lucky to have. 
+                    <p>Through this portfolio, I wanted to give a better perspective of who am I, what I'm passionate about, and the different experiences I've been lucky to have. In case 
+                        you want to consult my Resume for more details, please click on the left-most icon in the Navigation Bar.
                         Also, it was developed using ReactJS and styled-components to have a clean but personalized website.
                     </p>
                 </TextContainer>
+                <AllSkills/>
             </PageContainer>
         </motion.div>
     )

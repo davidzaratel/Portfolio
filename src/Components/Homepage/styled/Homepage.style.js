@@ -43,7 +43,7 @@ export const HomePageTitle = styled.h1 `
         margin-left: 9%;
     }
     @media(max-width: 1200px) {
-        font-size: 90px;
+        font-size: 100px;
         text-align: center;
     }
     @media(max-width: 750px) {
@@ -61,11 +61,12 @@ export const HomePageSubtitle = styled.h2 `
     font-size: 50px;
     margin-bottom: 3%;
     @media(max-width: 1200px) {
-        font-size: 35px;
+        font-size: 40px;
+        margin-top: 3%;
         margin-bottom: 5%;
     }
     @media(max-width: 750px) {
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -76,14 +77,13 @@ export const HomePageSubtitle = styled.h2 `
 `
 
 export const HomePageDescription = styled.p `
-    font-size: 25px;
+    font-size: 26px;
     padding-right: 5%;
     @media(max-width: 1200px) {
-        font-size: 20px;
         padding-right: 0px;
     }
     @media(max-width: 750px) {
-        font-size: 20px;
+        font-size: 22px;
         padding-right: 0px;
         margin-bottom: 20%;
     }

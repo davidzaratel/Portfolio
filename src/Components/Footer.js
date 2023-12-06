@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, MediaContainer, TitleFooter, MediaLink, MediaImage } from '../Styles/Styled Components/Footer.style'
+import { FooterContainer, MediaContainer, TitleFooter, MediaLink, MediaImage, CopyrightLabel } from '../Styles/Styled Components/Footer.style'
 import { SecondarySubtitle } from '../Styles/Styled Components/Reusable.style'
 import instaLogo from  '../Resources/icons/instagram.png'
 import fbLogo from '../Resources/icons/facebook.png'
@@ -21,10 +21,11 @@ function Footer() {
             <MediaLink href='https://www.linkedin.com/in/davidzaratel/' target="_blank">
               <MediaImage src={lkdinLogo} alt='media logo' className='mediaImage'></MediaImage>
             </MediaLink>
-            <MediaLink href='mailto:davzaratelo@gmail.com' target="_blank"><
-              MediaImage src={emailLogo} alt='media logo' className='mediaImage'></MediaImage>
+            <MediaLink href='mailto:davzaratelo@gmail.com' target="_blank">
+              <MediaImage src={emailLogo} alt='media logo' className='mediaImage'></MediaImage>
             </MediaLink>
           </MediaContainer>
+          <CopyrightLabel>© 2023 • David Zárate López</CopyrightLabel>
       </FooterContainer>
     )
 }

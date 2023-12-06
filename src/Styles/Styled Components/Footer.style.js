@@ -69,3 +69,18 @@ export const MediaImage = styled.img `
         width: 20px;
     }
 `
+
+export const CopyrightLabel = styled.p `
+    color: #6c757d;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    @media(max-width: 750px){
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    @media(max-width: 450px) {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+`

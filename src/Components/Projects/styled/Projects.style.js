@@ -21,7 +21,7 @@ export const ProjectImageContainer = styled.div `
     border-radius: 2%;
     &:hover {
         ${ProjectHoverOverlay} {
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(20px);
             opacity: 1;
         }
     }

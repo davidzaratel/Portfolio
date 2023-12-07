@@ -48,7 +48,6 @@ export const NavbarLinkContainer = styled.div `
 export const NavBarLink = styled(Link) `
     color: white;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 7%;
     @media (max-width: 1200px) {
@@ -68,7 +67,6 @@ export const NavBarLink = styled(Link) `
 export const NavBarLinkExtended = styled(Link) `
     color: white;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 10px;
     @media (max-width: 450px) {
@@ -97,7 +95,6 @@ export const OpenLinkButton = styled.button`
 export const NavBarHomeLink= styled(Link) `
     color: white;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: auto;
     white-space: nowrap;

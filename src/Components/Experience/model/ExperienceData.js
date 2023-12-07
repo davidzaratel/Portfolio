@@ -1,5 +1,5 @@
-import tSystems from '../images/T-Systems.png'
-import nextdoor from '../images/Nextdoor.png'
+import tSystems from '../images/T-Systems.jpg'
+import nextdoor from '../images/Nextdoor.jpg'
 
 export const experienceData = [
     {

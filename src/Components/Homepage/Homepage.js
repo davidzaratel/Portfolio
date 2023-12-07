@@ -1,7 +1,7 @@
 import React from "react"
 import {HomePageContainer, HomePageDescription, HomePageSubtitle, HomePageTitle, HomepageImage, HomepageTextContainer, LeftContainerHomepage, RightContainerHomepage } from "./styled/Homepage.style"
 import "../../index.css"
-import profile from './images/ProfileImage.png'
+import profile from './images/ProfileImage.jpg'
 import { motion } from 'framer-motion'
 
 export const HomePage = () => {

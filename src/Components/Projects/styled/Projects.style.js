@@ -52,6 +52,7 @@ export const ProjectPicture = styled.img `
     object-fit: cover;
     border-radius: 2%;
 `
+
 export const ProjectTitle = styled.a `
     display: block;
     text-align: center;

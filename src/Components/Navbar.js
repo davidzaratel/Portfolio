@@ -16,10 +16,10 @@ function Navbar() {
                     <ResumeLink href={resumeFile} download="DavidZARATELOPEZ_Resume.pdf">
                         <ResumeIcon src={resumeLogo} alt='resume logo'></ResumeIcon>
                     </ResumeLink>
-                    <NavBarLink to="/education">Education</NavBarLink>
-                    <NavBarLink to="/about">About</NavBarLink>
-                    <NavBarLink to="/projects">Projects</NavBarLink>
-                    <NavBarLink to="/experience">Experience</NavBarLink>
+                    <NavBarLink to="Portfolio/education">Education</NavBarLink>
+                    <NavBarLink to="Portfolio/about">About</NavBarLink>
+                    <NavBarLink to="Portfolio/projects">Projects</NavBarLink>
+                    <NavBarLink to="Portfolio/experience">Experience</NavBarLink>
                     <OpenLinkButton 
                     onClick= {() => {
                         setExtendedNavbar((curr) => !curr);
@@ -42,25 +42,25 @@ function Navbar() {
             </ResumeLinkExtended>
             <div className="line-1"/>
             <div className="navbar-line"/>
-            <NavBarLinkExtended to="/education" 
+            <NavBarLinkExtended to="Portfolio/education" 
             onClick= {() => {
                         setExtendedNavbar((curr) => !curr);
             }}
             >Education</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/about"
+            <NavBarLinkExtended to="Portfolio/about"
             onClick= {() => {
                 setExtendedNavbar((curr) => !curr);
             }}
             >About</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/projects"
+            <NavBarLinkExtended to="Portfolio/projects"
             onClick= {() => {
                 setExtendedNavbar((curr) => !curr);
             }}
             >Projects</NavBarLinkExtended>
             <div className="line-1"/>
-            <NavBarLinkExtended to="/experience"
+            <NavBarLinkExtended to="Portfolio/experience"
             onClick= {() => {
                 setExtendedNavbar((curr) => !curr);
             }}  

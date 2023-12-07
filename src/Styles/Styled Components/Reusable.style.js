@@ -28,9 +28,11 @@ export const SectionDescriptionContainer = styled.div `
     text-align: center;
     margin-bottom: 70px;
     @media(max-width: 1000px) {
+        margin-bottom: 50px;
         font-size: 18px;
     }
     @media(max-width: 750px) {
+        margin-bottom: 30px;
         font-size: 12px;
     }
 `

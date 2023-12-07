@@ -1,12 +1,12 @@
 import React from "react"
-import aboutPhoto from "../../Resources/David_Horizontal.png"
+import aboutPhoto from "./images/David_Horizontal.jpg"
 import '../../App.css'
 import {PageContainer, TextContainer, PrimarySubtitle, PrimaryTitle, TitleContainer, SectionDescriptionContainer, SectionSeparator } from "../../Styles/Styled Components/Reusable.style"
-import '../../Styles/css/About.css'
 import { motion } from 'framer-motion'
 import Summary from "./Summary"
 import Interests from "./Interests"
 import AllSkills from "./AllSkills"
+import { AboutHoverImageText, AboutHoverOverlay, AboutImage, AboutImageContainer, AboutTitleHoverImage, DescriptionHoverImage } from "./styled/About.style"
 
 export const About = () => {
     return(
@@ -24,19 +24,19 @@ export const About = () => {
                     <p>Here's information about me, my trajectory and interests.
                     </p>
                 </SectionDescriptionContainer>
-                <div className="imageContainer">
-                    <img src={aboutPhoto} alt="Avatar" className="image"></img>
-                    <div className="hoverOverlay">
-                        <div className="hoverImageText">
-                            <h1 className="titleHoverImage">I'm David</h1>
-                            <h4 className="descriptionHoverImage">
+                <AboutImageContainer>
+                    <AboutImage src={aboutPhoto} alt="About Image"></AboutImage>
+                    <AboutHoverOverlay>
+                        <AboutHoverImageText>
+                            <AboutTitleHoverImage>I'm David</AboutTitleHoverImage>
+                            <DescriptionHoverImage>
                             I was born in Arizona but I lived in Mexico my whole life.
                             I'm an outgoing, perseverant, and resilient person who's driven by solving real-life problems to help others through technology. 
                             I'm constantly working on improving my Software Engineering abilities and looking for opportunities to grow as an Engineer.
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+                            </DescriptionHoverImage>
+                        </AboutHoverImageText>
+                    </AboutHoverOverlay>
+                </AboutImageContainer>
                 <Summary/>
 
                 <Interests/>

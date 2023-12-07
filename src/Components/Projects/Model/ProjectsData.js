@@ -1,12 +1,12 @@
-import focusImage from '../images/Focus.png'
-import myTasks from '../images/MyTasks.png'
-import theWavesImage from '../images/TheWaves.png'
-import terniumImage from '../images/Ternium.png'
-import multiagentImage from '../images/Multiagent.png'
-import highlighterImage from '../images/SyntaxHighlighter.png'
-import trafficImage from '../images/TraffIcAnalysis.png'
-import snakesAndLadders from '../images/SnakesAndLadders.png'
-import scheduleGenerator from '../images/ScheduleGenerator.png'
+import focusImage from '../images/Focus.jpg'
+import myTasks from '../images/Tasks.jpg'
+import theWavesImage from '../images/TheWaves.jpg'
+import terniumImage from '../images/Ternium.jpg'
+import multiagentImage from '../images/Agents.jpg'
+import highlighterImage from '../images/Syntax.jpg'
+import trafficImage from '../images/Multicity.jpg'
+import snakesAndLadders from '../images/SnakesAndLadders.jpg'
+import scheduleGenerator from '../images/Scheduler.jpg'
 
 export const projectsData = [
     {
@@ -18,20 +18,20 @@ export const projectsData = [
         skills: ["Swift", "SwiftUI", "URLSession", "OAuth", "Unit Testing", "Async", "MVVM"]
     },
     {
-        title: "Focus",
-        type: "iOS Development",
-        image: focusImage,
-        link: "https://github.com/itumejia/Focus",
-        description: "Developed an iOS App with six games for an NPO organization to help children with ADHD develop their attention and memory.",
-        skills: ["Swift", "UIKit", "MVM", "Storyboards"]
-    },
-    {
         title: "Anomalies Detection",
         type: "Web Development",
         image: terniumImage,
         link: "https://github.com/DessTEC/TERNIUM_ANOMALIAS",
         description: "Built a web app that displays and finds anomalies inside CSV records of Ternium working alongside a seven-person team.",
         skills: ["React", "Javascript", "CSS", "HTML", "Bootstrap", "Flask", "Python", "MongoDB", "ChartsJS", "Hooks", "HTTP"]
+    },
+    {
+        title: "Focus",
+        type: "iOS Development",
+        image: focusImage,
+        link: "https://github.com/itumejia/Focus",
+        description: "Developed an iOS App with six games for an NPO organization to help children with ADHD develop their attention and memory.",
+        skills: ["Swift", "UIKit", "MVM", "Storyboards"]
     },
     {
         title: "Traffic Analysis",

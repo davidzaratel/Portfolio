@@ -57,7 +57,7 @@ export const BulletPoint = styled.div `
         list-style-type: none;
     }
     @media(max-width: 450px) {
-        font-size: 8px;
+        font-size: 10px;
     }
 `
 

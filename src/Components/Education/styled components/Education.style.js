@@ -42,7 +42,7 @@ export const CoursesContainer = styled.div `
 
 export const CourseTitle = styled.h3 `
     width: 50%;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     margin-bottom: 24px;
     @media(max-width: 1200px){
@@ -50,11 +50,11 @@ export const CourseTitle = styled.h3 `
         margin-bottom: 20px;
     }
     @media(max-width: 750px){
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 15px;
     }
     @media(max-width: 450px) {
+        font-size: 12px;
         width: 100%;
-        font-size: 10px;
     }
 `

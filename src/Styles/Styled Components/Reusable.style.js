@@ -154,7 +154,6 @@ export const OrganizationSubtitle1 = styled.h2 `
 `
 
 export const OrganizationSubtitle2 = styled.h3 `
-    font-size: 18px;
     margin: 10px 0px 10px 0px;
     text-align: ${(props) => props.align ? props.align : ''};
     @media(min-width: 1200px){
@@ -167,6 +166,6 @@ export const OrganizationSubtitle2 = styled.h3 `
         font-size: 12px;
     }
     @media(max-width: 450px) {
-        font-size: 8px;
+        font-size: 12px;
     }
 `
